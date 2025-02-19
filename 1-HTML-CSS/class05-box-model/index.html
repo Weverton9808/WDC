@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 05 Box Model</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #square1 {
+      width: 120px;
+      height: 120px;
+      background: red;
+      margin: auto;
+    }
+
+    span,
+    div {
+      border: 8px solid red;
+    }
+
+    span {
+      padding: 16px;
+      margin: 16px;
+      border: 16px solid red;
+    }
+
+    div {
+      width: calc(11 * 16px);
+      margin: 16px;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    p mark {
+      background-color: yellow;
+    }
+
+    p {
+      font-variant: small-caps;
+    }
+
+    .footer {
+      margin-top: auto;
+    }
+  </style>
+  <body>
+    <main>
+      <!-- <div id="square1">X</div> -->
+      <!-- <div id="square2">Y</div>
+      <div id="square3">Z</div> -->
+      <div>c</div>
+      <div>c</div>
+      <span>a</span>
+      <span></span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta optio
+        accusamus <s>ratione</s>? Id vel qui cupiditate? Facilis quae est ratione
+        voluptatibus, earum esse, mollitia consequuntur enim temporibus deleniti sunt?
+      </p>
+    </main>
+
+    <div class="footer">
+      <footer>C</footer>
+    </div>
+
+    <!-- <strong>Emanuel</strong> -->
+
+    <!-- <a href=""></a> -->
+  </body>
+</html>

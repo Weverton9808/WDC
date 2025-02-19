@@ -1,0 +1,23 @@
+-- DDL
+CREATE TABLE students (
+    name TEXT,
+    age NUMBER
+);
+
+-- DML
+INSERT INTO students (name, age)
+VALUES ("Emanuel", 32);
+
+INSERT INTO students (name, age) VALUES 
+("Nereu", 43),
+("Kelvin", 18),
+("Neemias", 16);
+
+-- DQL
+SELECT * FROM students;
+SELECT * FROM students ORDER BY name;
+SELECT age, name FROM students;
+SELECT * FROM students WHERE age >= 18;
+
+
+-- TCL
